@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+internal class ViewController : UIViewController {
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
-  }
+    @IBOutlet weak internal var KingCard: UIButton!
 
+    @IBOutlet weak internal var ThreeCard: UIButton!
 
+    @IBOutlet weak internal var RedCard: UIButton!
+
+    override internal func viewDidLoad()
 }
-
